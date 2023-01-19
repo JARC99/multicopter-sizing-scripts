@@ -115,7 +115,7 @@ Ue_hvr = Ubat - Ibat_hvr*Rbat
 
 t_bat_hvr = (Cbat - Cmin)/Ibat_hvr * 60/1000  # Missing flag
 
-<<<<<<< Updated upstream
+
 # fig, (ax, ax1) = plt.subplots(2, 1, sharex=True, dpi=DPI)
 # ax.plot(Cbat, t_bat_hvr)
 # ax.set_xlim(left=0)
@@ -143,7 +143,7 @@ table_hvr = [["Endurance", round(t_bat_hvr, 3), "min"],
 print("\nHover Flight:\n")
 print(tabulate(table_hvr, headers=[
       "Parameter", "Value", "Unit"], tablefmt="github"))
-=======
+
 fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, dpi=DPI)
 ax1.plot(Cbat, t_bat_hvr)
 ax1.set_xlim(left=0)
@@ -171,7 +171,7 @@ ax2.legend([r"$\mathdefault{W_{0}}$",
 # print("\nHover Flight:\n")
 # print(tabulate(table_hvr, headers=[
 #       "Parameter", "Value", "Unit"], tablefmt="github"))
->>>>>>> Stashed changes
+
 
 # %% Maximum Thrust
 
